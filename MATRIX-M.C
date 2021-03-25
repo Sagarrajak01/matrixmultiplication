@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include<conio.h>
 int main()
 {
   
   int a[10][10],b[10][10],c[10][10];
   int i,j,k,m,n,p,q;
-  clrscr();
   l:
   printf("Input row size of matrix A ");
   scanf("%d",&m);
@@ -59,8 +57,5 @@ int main()
      }
       printf("\n");
   }
-   
-    
-  return 0;
   getch();
 }
